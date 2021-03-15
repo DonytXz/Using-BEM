@@ -1,0 +1,40 @@
+$bg-color: #579A72;
+$bg-color-btn: #FFFFFF;
+$font-color-paragraf: #FFFFFF;
+$font-color-btn: #579A72;
+
+/*********************************
+PARAGRAF
+**********************************/
+.footer__paragraf_size{
+    width: 50%;
+}
+.footer__paragraf_color{
+    color: $font-color-paragraf;
+}
+/*********************************
+BUTTON
+**********************************/
+
+.footer__button_padding{
+    padding: 0.5em;  
+}
+
+.footer__button_size{
+    box-sizing: border-box;
+    height: 80%;
+    width: 15%;
+}
+.footer__button_bg_color{
+    background: $bg-color-btn;
+}
+.footer__button_text_color{
+    color: $font-color-btn;
+}
+.footer__button_font_weight{
+    font-weight: bold;
+}
+.footer__button_border{
+    border: 0px solid;
+    border-radius: 50px;
+}

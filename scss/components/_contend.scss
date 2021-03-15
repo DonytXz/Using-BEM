@@ -1,0 +1,22 @@
+$font-color-header: #37714C;
+$font-color-paragraf: #3d3a3b;
+
+/*********************************
+PARAGRAF
+**********************************/
+.contend__paragraf{
+    color: $font-color-paragraf;
+}
+/*********************************
+HEADER
+**********************************/
+.contend__header_color{
+    color: $font-color-header;
+}
+.contend__header_font_size{
+    font-size: 46px;
+}
+.contend__header_color_upercase{
+    text-transform: uppercase;
+}
+
