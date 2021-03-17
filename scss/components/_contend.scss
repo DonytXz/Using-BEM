@@ -1,6 +1,22 @@
 $font-color-header: #37714C;
 $font-color-paragraf: #3d3a3b;
-
+$contend-bg-color: #D1CFCE;
+/*********************************
+CONTEND
+**********************************/
+.contend{
+    background-color: $contend-bg-color;
+    box-sizing: border-box;
+    width: 60%;
+    height: 40%;
+    padding: 40px;
+}
+.contend_margin{
+    margin: 0 auto;
+}
+.contend_border_radius{
+    border-radius: 20px;
+}
 /*********************************
 PARAGRAF
 **********************************/
@@ -10,13 +26,9 @@ PARAGRAF
 /*********************************
 HEADER
 **********************************/
-.contend__header_color{
+.title{
     color: $font-color-header;
-}
-.contend__header_font_size{
     font-size: 46px;
 }
-.contend__header_color_upercase{
-    text-transform: uppercase;
-}
+
 
