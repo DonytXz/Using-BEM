@@ -8,7 +8,13 @@ CONTAINER
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content:flex-end;
+
+}
+.bg{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top center;
+}
+.bg_img{
+    background-image: url("../../assets/shutterstock_1485981242.png");
 }

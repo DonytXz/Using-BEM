@@ -6,7 +6,7 @@ npm install -g node-sass.
 ** SASS to CSS **
 
 ## compile:
-node-sass scss -o css 
+node-sass scss -o assets/css 
 
 ## watch for changes:
-node-sass -w scss -o css.
+node-sass -w scss -o assets/css.
