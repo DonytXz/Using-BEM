@@ -4,8 +4,9 @@ BUTTON
 .btn{
     padding: 0.5em;  
     box-sizing: border-box;
-    height: 80%;
-    width: 15%;
+    height: 50px;
+    width: 150px;
+    margin: auto 0;
     background: $bg-color-btn;
     color: $font-color-btn;
     font-weight: bold;

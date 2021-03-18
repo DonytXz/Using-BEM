@@ -11,7 +11,8 @@ Theme 2
 **********************************/
 
 .title{
-    font-size: 46px;
+    font-size: 48px;
+    text-align: center;
 }
 .title_green{
     color: $font-color-green;
@@ -21,12 +22,17 @@ Theme 2
 Theme 3
 **********************************/
 .txt{
-    width: 700px;
+    width: 800px;
+    font-size: 18px;
+}
+.txt_center{
+    margin: 0 auto;
 }
 .txt_white{
     color: $font-color-white;
     width: 700px;
 }
 .txt_dark_gray{
+    text-align: center;
     color: $font-color-dark-gray;
 }
