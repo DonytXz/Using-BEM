@@ -1,34 +1,19 @@
-$font-color-header: #37714C;
-$font-color-paragraf: #3d3a3b;
+
 $contend-bg-color: #D1CFCE;
 /*********************************
 CONTEND
 **********************************/
 .contend{
-    background-color: $contend-bg-color;
     box-sizing: border-box;
-    width: 60%;
-    height: 40%;
+    width: 1000px;
+    height: 300px;
     padding: 40px;
 }
-.contend_margin{
+.contend_theme1{
+    background-color: $contend-bg-color;
+    border-radius: 20px 20px 0 0;
     margin: 0 auto;
 }
-.contend_border_radius{
-    border-radius: 20px;
-}
-/*********************************
-PARAGRAF
-**********************************/
-.contend__paragraf{
-    color: $font-color-paragraf;
-}
-/*********************************
-HEADER
-**********************************/
-.title{
-    color: $font-color-header;
-    font-size: 46px;
-}
+
 
 

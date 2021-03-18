@@ -1,6 +1,6 @@
 $bg-color: #579A72;
 $bg-color-btn: #FFFFFF;
-$font-color-paragraf: #FFFFFF;
+
 $font-color-btn: #579A72;
 $footer-bg-color: #579A72;
 
@@ -18,27 +18,4 @@ FOOTER
     padding: 0.5em;
 }
 
-/*********************************
-PARAGRAF
-**********************************/
-.footer__paragraf{
-    width: 50%;
-    color: $font-color-paragraf;
-}
-/*********************************
-BUTTON
-**********************************/
-.footer__btn{
-    padding: 0.5em;  
-    box-sizing: border-box;
-    height: 80%;
-    width: 15%;
-    background: $bg-color-btn;
-    color: $font-color-btn;
-    font-weight: bold;
-}
 
-.footer__btn_border{
-    border: 0px solid;
-    border-radius: 50px;
-}

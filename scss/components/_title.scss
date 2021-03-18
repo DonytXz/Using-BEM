@@ -1,0 +1,32 @@
+$font-color-green: #37714C;
+$font-color-dark-gray: #3d3a3b;
+$font-color-white: #FFFFFF;
+/*********************************
+Theme 1
+**********************************/
+
+
+/*********************************
+Theme 2
+**********************************/
+
+.title{
+    font-size: 46px;
+}
+.title_green{
+    color: $font-color-green;
+}
+
+/*********************************
+Theme 3
+**********************************/
+.txt{
+    width: 700px;
+}
+.txt_white{
+    color: $font-color-white;
+    width: 700px;
+}
+.txt_dark_gray{
+    color: $font-color-dark-gray;
+}
