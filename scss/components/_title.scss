@@ -1,38 +1,13 @@
+/*********************************
+TITLE
+**********************************/
 $font-color-green: #37714C;
-$font-color-dark-gray: #3d3a3b;
-$font-color-white: #FFFFFF;
-/*********************************
-Theme 1
-**********************************/
-
-
-/*********************************
-Theme 2
-**********************************/
 
 .title{
     font-size: 48px;
     text-align: center;
 }
-.title_green{
+.title_primary{
     color: $font-color-green;
 }
 
-/*********************************
-Theme 3
-**********************************/
-.txt{
-    width: 800px;
-    font-size: 18px;
-}
-.txt_center{
-    margin: 0 auto;
-}
-.txt_white{
-    color: $font-color-white;
-    width: 700px;
-}
-.txt_dark_gray{
-    text-align: center;
-    color: $font-color-dark-gray;
-}

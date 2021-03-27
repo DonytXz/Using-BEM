@@ -1,0 +1,21 @@
+/*********************************
+TEXT
+**********************************/
+$font-color-dark-gray: #3d3a3b;
+$font-color-white: #FFFFFF;
+
+.text{
+    width: 800px;
+    font-size: 18px;
+}
+.text_center{
+    margin: 0 auto;
+}
+.text_theme_white{
+    color: $font-color-white;
+    width: 700px;
+}
+.text_theme_dark{
+    text-align: center;
+    color: $font-color-dark-gray;
+}
