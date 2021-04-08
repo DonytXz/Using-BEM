@@ -2,12 +2,44 @@
 TITLE
 **********************************/
 $font-color-green: #37714C;
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$screen-xxl: 1365px;
+
 
 .title{
-    font-size: 48px;
+    font-size: 14px;
     text-align: center;
 }
+
+.text-fluid{
+    @include screen-sm{
+        font-size: 18px;
+        color: aqua;
+    }
+    @include screen-md{
+        font-size: 28px;
+        color: red;
+    }
+    @include screen-lg{
+        font-size: 28px;
+        color: red;
+    }
+    @include screen-xl{
+        font-size: 28px;
+        color: red;
+    }
+    @include screen-xxl{
+        font-size: 28px;
+        color: red;
+    }
+}
+
+
 .title_primary{
     color: $font-color-green;
 }
+
 

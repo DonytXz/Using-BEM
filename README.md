@@ -9,4 +9,4 @@ npm install -g node-sass.
 node-sass scss -o assets/css 
 
 ## watch for changes:
-node-sass -w scss -o assets/css.
+node-sass -w scss -o assets/css
